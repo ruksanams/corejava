@@ -1,14 +1,13 @@
 package corejava;
-
 import java.util.Scanner;
-
-public class corejava3 {
-	String name,address,phone,email,prooftype,proofid;
-	 public static void main(String[]args)
+public class Corejava3 
+ {
+     String name,address,phone,email,prooftype,proofid;//data Members
+     public static void main(String[]args)
 	  {
-		 Scanner obj=new Scanner(System.in);
-			System.out.println("Enter your Name:");
-			 corejava31 ob=new corejava31();
+		    Scanner obj=new Scanner(System.in);
+		    System.out.println("Enter your Name:");
+	            Corejava31 ob=new Corejava31();
 		    String name=obj.nextLine();
 		    System.out.println("Enter your Address:");
 		    String address=obj.nextLine();
