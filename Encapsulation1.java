@@ -1,13 +1,12 @@
 package corejava;
-
-public class encapsulation1 {
-
-	String name,address,phone,email,prooftype,proofid;
-	public void setname(String name)
-	{
+public class Encapsulation1 
+{
+ String name,address,phone,email,prooftype,proofid;
+ public void setname(String name)
+       {
 		this.name=name;
 	}
-	public void setaddress(String address)
+	public void setaddress(String address)//updating values
 	{
 		this.address=address;
 	}
@@ -27,29 +26,29 @@ public class encapsulation1 {
 	{
 		 this.proofid=proofid;
 	}
-    public String getname()
-    {
+       public String getname()//retrieving values
+       {
     	return this.name;
-}
-    public String getaddress()
-    {
+       }
+      public String getaddress()
+       {
     	return this.address;
-}
-    public String getphone()
-    {
+       }
+     public String getphone()
+      {
     	return this.phone;
-}
+      }
     public String getemail()
-    {
+     {
     	return this.email;
-}
+     }
     public String getprooftype()
-    {
+     {
     	return this.prooftype;
-}
+     }
     public String getproofid()
-    {
+     {
     	return this.proofid;
-}
+     }
 }
 
