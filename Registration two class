@@ -7,7 +7,7 @@ public class Corejava3
 	  {
 		    Scanner obj=new Scanner(System.in);
 		    System.out.println("Enter your Name:");
-	            Corejava31 ob=new Corejava31();
+	            Corejava31 ob=new Corejava31();//creating object for another class
 		    String name=obj.nextLine();
 		    System.out.println("Enter your Address:");
 		    String address=obj.nextLine();
