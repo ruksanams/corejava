@@ -1,8 +1,9 @@
 package corejava;
 
-public class corejava31 {
-	String name,address,phone,email,prooftype,proofid;
-	public void setname(String name)
+public class Corejava31 
+    {
+	String name,address,phone,email,prooftype,proofid;//data Members
+	public void setname(String name)//updating values
 	{
 		this.name=name;
 	}
@@ -26,28 +27,28 @@ public class corejava31 {
 	{
 		 this.proofid=proofid;
 	}
-    public String getname()
-    {
+       public String getname()//retriving values
+       {
     	return this.name;
-}
-    public String getaddress()
-    {
+       }
+       public String getaddress()
+       {
     	return this.address;
-}
-    public String getphone()
-    {
+       }
+       public String getphone()
+       {
     	return this.phone;
-}
-    public String getemail()
-    {
+       }
+       public String getemail()
+       {
     	return this.email;
-}
-    public String getprooftype()
-    {
+       }
+       public String getprooftype()
+       {
     	return this.prooftype;
-}
-    public String getproofid()
-    {
+       }
+       public String getproofid()
+       {
     	return this.proofid;
-}
+       }
 }
