@@ -1,0 +1,35 @@
+package corejava;
+import java.util.Scanner;
+
+ class cat
+    {
+	public void animalsound()//method
+	   {
+	     System.out.println("Sounds of different animals");
+	   }
+    }
+ class lion extends cat//inherited class of cat
+    {
+	public void animalsound()//method
+	  {
+	    System.out.println("The lion roars");
+	  }
+    }
+class Animal extends cat//inherited class of cat
+    {
+	public void animalsound()
+	  {
+	    System.out.println("The cat meows");
+	  }
+    
+      public static void main(String[]args)
+       {
+	cat myanimal=new cat();//creating object for class cat
+	cat mylion=new lion();//creating object for cat and calling the constructor of lion class
+	cat mycat=new Animal();//creating object for cat and calling the constructor of animal class
+	
+        myanimal.animalsound();
+        mylion.animalsound();
+        mycat.animalsound();
+      }
+}
