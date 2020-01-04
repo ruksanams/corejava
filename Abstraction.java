@@ -20,14 +20,14 @@ class Racoon extends Animal11//inherited class
 	{
 		super(name);
 	}
-public void eat() 
-{
-	System.out.println(getname()+"is eating");
-}
-public void breathe()
-{
-	System.out.println("breathe in,breathe out,repeat");
-}
+       public void eat() 
+        {
+	 System.out.println(getname()+"is eating");
+        }
+       public void breathe()
+        {
+	 System.out.println("breathe in,breathe out,repeat");
+        }
 }
 public class abstraction 
 {
